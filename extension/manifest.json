@@ -1,0 +1,21 @@
+{
+  "permissions": [
+    "menus",
+    "<all_urls>"
+  ],
+  "manifest_version": 2,
+  "name": "Remote-download",
+  "version": "1.0",
+
+  "description": "Adds a right click to download remotely. This is good for datahoarding in places where you require authentication, and you want to pass in cookies and other things.",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+
+  "background":{
+	"scripts":["abc.js"]
+  }
+}
+
